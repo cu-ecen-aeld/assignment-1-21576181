@@ -7,7 +7,8 @@ set -u
 
 NUMFILES=10
 WRITESTR=AELD_IS_FUN
-WRITEDIR=/tmp/aeld-data
+WRITEDIR=/home/mikayla/github_assignment1/assignment-1-21576181/finder-app/tmp/aeld-data
+#WRITEDIR=/tmp/aeld-data
 username=$(cat conf/username.txt)
 
 if [ $# -lt 3 ]
